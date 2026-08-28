@@ -46,7 +46,7 @@ vercel
 ## Project structure
 
 ```
-company-directory/
+sponsorship-companies-australia/
 ├── app/
 │   ├── layout.tsx        # Root layout, fonts, metadata
 │   ├── page.tsx          # Home page (server component)
