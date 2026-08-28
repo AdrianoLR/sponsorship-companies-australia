@@ -1,4 +1,4 @@
-# Company Index
+# Index
 
 A searchable, filterable directory of 3,546 companies across 28 industry categories, built with Next.js (App Router) and TypeScript. No external UI libraries — plain CSS with design tokens.
 
