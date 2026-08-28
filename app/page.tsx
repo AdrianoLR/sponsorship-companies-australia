@@ -8,9 +8,9 @@ export default function HomePage() {
   return (
     <main className="shell">
       <header className="masthead">
-        <p className="masthead-eyebrow">Company Index</p>
+        <p className="masthead-eyebrow">Freedom of Information 15-01-2025</p>
         <h1>
-          {companies.length.toLocaleString()} companies,
+          {companies.length.toLocaleString()} accredited sponsor companies Australia,
           <br />
           filed under <em>{categories.length} categories</em>.
         </h1>
