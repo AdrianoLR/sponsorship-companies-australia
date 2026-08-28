@@ -10,7 +10,7 @@ export default function HomePage() {
       <header className="masthead">
         <p className="masthead-eyebrow">Freedom of Information 15-01-2025</p>
         <h1>
-          {companies.length.toLocaleString()} accredited sponsor companies Australia,
+          {companies.length.toLocaleString()} accredited sponsor companies in Australia,
           <br />
           filed under <em>{categories.length} categories</em>.
         </h1>
