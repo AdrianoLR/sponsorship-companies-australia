@@ -1,4 +1,5 @@
 import Directory from "@/components/Directory";
+import Link from 'next/link';
 import { getCompanies, getCategoryStats } from "@/lib/companies";
 
 export default function HomePage() {
@@ -28,8 +29,7 @@ export default function HomePage() {
       <Directory companies={companies} categories={categories} />
 
       <footer className="foot">
-        Source: companies_categorised.csv · category_source = original ·
-        inferred · unresolved
+        Source: <Link href="https://www.homeaffairs.gov.au/foi/files/2025/fa-250101229-document-released.PDF">Accredited Sponsorship Companies</Link>
       </footer>
     </main>
   );
